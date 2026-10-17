@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pricelist Yuki Store</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);background:#0d3d86}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:#0d3d86}
+#wrap{width:100%;overflow:hidden;position:relative}
+#stage{width:1920px;height:1080px;position:absolute;left:0;top:0;transform-origin:0 0}
+#bg{position:absolute;left:0;top:0}
+.c{position:absolute;box-sizing:border-box;padding:8px 16px 12px;border-radius:44px;display:flex;flex-direction:column;overflow:hidden;
+ background:linear-gradient(170deg,#1d6fd0 0%,#124397 45%,#0b2c6e 100%);border:3px solid rgba(160,225,255,.5);
+ box-shadow:0 8px 0 rgba(4,25,70,.4),inset 0 2px 0 rgba(255,255,255,.25);color:#e8f7ff;font:500 19px/28px Poppins,sans-serif}
+.c h2{margin:0 0 4px;text-align:center;font:600 28px/38px Poppins,sans-serif;color:#fff}
+.c h3{margin:6px 0 0;font:700 19px/28px Poppins,sans-serif;color:#ffc83d}
+.c p{margin:0}
+.c .n{margin-top:auto;font-size:15px;line-height:19px;color:#ffe9b0;font-style:italic}
+.cols{display:flex;gap:12px}.cols>div{flex:1}
+</style>
+</head>
+<body>
+<div id="wrap"><div id="stage">
+<svg id="bg" width="1920" height="1080" viewBox="0 0 1920 1080" aria-hidden="true">
+<defs>
+ <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#c4efff"/><stop offset=".3" stop-color="#63c6f2"/><stop offset=".65" stop-color="#2079d2"/><stop offset="1" stop-color="#0d3d86"/>
+ </linearGradient>
+ <pattern id="w" width="120" height="26" patternUnits="userSpaceOnUse"><path d="M0 13Q30 0 60 13T120 13" fill="none" stroke="#fff" stroke-opacity=".22" stroke-width="3"/></pattern>
+ <g id="cl" fill="#fff" opacity=".92"><circle cx="40" cy="40" r="26"/><circle cx="76" cy="28" r="32"/><circle cx="114" cy="38" r="28"/><circle cx="142" cy="46" r="20"/><rect x="16" y="44" width="148" height="22" rx="11"/></g>
+ <g id="fi"><path d="M0 0Q20-18 44 0Q20 18 0 0Z" fill="#ff8a5c"/><path d="M42 0L62-14L58 0L62 14Z" fill="#ff8a5c"/><circle cx="12" cy="-3" r="2.5" fill="#fff"/></g>
+ <g id="st"><polygon points="0,-30 8,-10 29,-9 13,5 18,26 0,14 -18,26 -13,5 -29,-9 -8,-10" fill="#ff9a7a" stroke="#ff9a7a" stroke-width="6" stroke-linejoin="round"/></g>
+</defs>
+<rect width="1920" height="1080" fill="url(#sea)"/>
+<rect y="150" width="1920" height="930" fill="url(#w)"/>
+<path d="M0 600Q120 560 240 600T480 600T720 600T960 600T1200 600T1440 600T1680 600T1920 600V1080H0Z" fill="#fff" opacity=".07"/>
+<path d="M0 930Q120 890 240 930T480 930T720 930T960 930T1200 930T1440 930T1680 930T1920 930V1080H0Z" fill="#0a2a5e" opacity=".35"/>
+
+<!-- matahari -->
+<g transform="translate(125 78)">
+ <circle r="62" fill="none" stroke="#ffd95e" stroke-width="14" stroke-linecap="round" stroke-dasharray="12 20.5"/>
+ <circle r="44" fill="#ffc83d" stroke="#ffe27a" stroke-width="5"/><circle cx="-14" cy="-14" r="9" fill="#fff3b8" opacity=".8"/>
+</g>
+<!-- awan -->
+<use href="#cl" transform="translate(255 20) scale(1.1)"/>
+<use href="#cl" transform="translate(430 72) scale(.65)"/>
+<use href="#cl" transform="translate(1450 18) scale(1.3)"/>
+<!-- kanan atas -->
+<use href="#fi" transform="translate(1735 40)"/>
+<use href="#st" transform="translate(1860 98) scale(.9)"/>
+<use href="#st" transform="translate(1878 560) scale(.75) rotate(20)"/>
+
+<!-- judul -->
+<text x="960" y="90" text-anchor="middle" font-family="Pacifico,cursive" font-size="82" fill="#fff" stroke="#0a2a5e" stroke-width="12" paint-order="stroke" stroke-linejoin="round">Pricelist Yuki Store</text>
+<rect x="850" y="102" width="220" height="40" rx="20" fill="#ffc83d"/>
+<text x="960" y="131" text-anchor="middle" font-family="Poppins,sans-serif" font-weight="700" font-size="24" fill="#0a2a5e">@yukistore</text>
+
+<!-- gelembung -->
+<g fill="#fff" fill-opacity=".12" stroke="#fff" stroke-opacity=".55" stroke-width="2">
+ <circle cx="700" cy="598" r="9"/><circle cx="1100" cy="598" r="7"/><circle cx="1500" cy="598" r="10"/>
+ <circle cx="1892" cy="860" r="12"/><circle cx="1893" cy="640" r="8"/><circle cx="20" cy="600" r="10"/><circle cx="18" cy="900" r="13"/>
+</g>
+
+<!-- pasir, kepiting, kerang, ikan (kanan bawah) -->
+<ellipse cx="1760" cy="1100" rx="200" ry="44" fill="#ffe9b0"/>
+<g transform="translate(1655 952) scale(1.5)">
+ <g stroke="#ff7a5c" stroke-width="5" stroke-linecap="round" fill="none">
+  <path d="M30 40Q12 30 8 14"/><path d="M90 40Q108 30 112 14"/><path d="M36 50L18 62"/><path d="M48 56L36 72"/><path d="M84 50L102 62"/><path d="M72 56L84 72"/>
+  <circle cx="8" cy="12" r="10"/><circle cx="112" cy="12" r="10"/>
+ </g>
+ <ellipse cx="60" cy="48" rx="34" ry="24" fill="#ff7a5c"/>
+ <circle cx="48" cy="34" r="5" fill="#fff"/><circle cx="72" cy="34" r="5" fill="#fff"/>
+ <circle cx="49" cy="35" r="2.5" fill="#0a2a5e"/><circle cx="73" cy="35" r="2.5" fill="#0a2a5e"/>
+</g>
+<g transform="translate(1595 1040)"><path d="M0-26C-22-20-30 8-20 26Q0 36 20 26C30 8 22-20 0-26Z" fill="#fff3d0" stroke="#e8c27a" stroke-width="2"/><path d="M0-22V30M0-18L-14 24M0-18L14 24" stroke="#e8c27a" stroke-width="2" fill="none"/></g>
+<use href="#fi" transform="translate(1132 985) scale(.8)"/>
+</svg>
+</div></div>
+
+<script>
+var D=[
+[45,155,213,430,'netflix',[['#1P1U','1 HARI : 6K','3 HARI : 12K','7 HARI : 18K','1 BULAN : 45K','#1P2U','1 HARI : 5K','3 HARI : 8K','7 HARI : 15K','1 BULAN : 30K']]],
+[268,155,212,430,'disney',[['#PLAN PREM','1 HARI 6U : 5K','7 HARI 6U : 20K','1 HARI 3U : 10K','3 HARI 3U : 15K','7 HARI 3U : 25K','#PLAN BASIC','1 HARI 3U : 4K','3 HARI 3U : 9K','7 HARI 3U : 16K']]],
+[490,155,210,430,'canva',[['1 HARI: 3K','3 HARI: 5K','7 HARI: 7K','1 BULAN: 12K','1 TAHUN GARANSI 6 BULAN: 32K','!akun seller +1k<br>designer +1k']]],
+[712,155,210,430,'youtube',[['#FAMPLAN','1 BULAN : 12K','2 BULAN : 20K','#INPLAN','1 BULAN : 20K','3 BULAN (RENEW) : 45K','!akun seller +2k']]],
+[934,155,209,430,'iqiyi',[['1 HARI : 5K','3 HARI : 10K','5 HARI : 12K','7 HARI : 15K','1 BULAN : 25K','1 BULAN (ANLIM) : 30K','#PRIVATE','1 BULAN : 45K']]],
+[1158,155,210,430,'wetv',[['#SHARING','1 HARI (6U) : 5K','3 HARI (6U) : 7K','7 HARI (6U) : 10K','1 BULAN (5U-6U) : 15K','1 BULAN (3U / ANLIM) : 25K','#PRIVATE','1 BULAN : 40K']]],
+[1388,155,210,430,'prime vidio',[['#SHARING','1 HARI : 4K','3 HARI : 8K','7 HARI : 12K','1 BULAN(3U): 20K','1 BULAN(2U): 25K','#PRIVATE','1 BULAN : 35K']]],
+[1622,155,210,430,'viu',[['#PRIVATE ANLIM','1 HARI : 3K','3 HARI : 6K','7 HARI : 10K','1 BULAN : 15K','#PRIVATE BIASA','1 HARI : 2K','3 HARI : 4K','7 HARI : 8K','1 BULAN : 10K']]],
+[45,612,273,250,'netflix',[['SEMPRIV : 55K','SINGLESCREEN','1 BULAN : 65K','#PRIVATE','1 BULAN : 180K']]],
+[340,612,360,305,'disney',[['#PLAN PREM','1 BULAN 6U : 35K','1 BULAN 3U : 60K'],['#PLAN BASIC','1 BULAN 3U : 35K','1 BULAN 2U : 45K']],['#PRIVATE','1 BULAN (PREMIUM) : 160K','1 BULAN (BASIC) : 90K']],
+[722,612,361,305,'spotify &amp; apple music',[['#FAMPLAN','1 BULAN : 25K','#INDPLAN','1 BULAN : 35K'],['#FAMPLAN','1 BULAN:23K','2 BULAN:30K']]],
+[1112,612,360,305,'bstation',[['#SHARING','1 HARI : 5K','3 HARI : 8K','7 HARI : 11K','1 BULAN : 15K','#PRIVATE','1 BULAN : 40K']]],
+[1512,612,350,305,'vidio',[['#HARIAN','1 HARI (2U) : 10K','1 HARI (PRIV) : 12K','#BULANAN','1 BULAN (2U) : 35K','1 BULAN (PRIV) : 55K']]],
+[45,870,295,195,'youku',[['#SHARING','1 HARI : 4K','7 HARI : 10K','1 BULAN : 15K']]],
+[355,935,355,140,'lok lok',[['#BASIC PRIVATE','1 HARI : 7K','1 BULAN : 60K']]],
+[772,945,353,120,'oldroll',[['#LIFETIME','GARANSI 6 BULAN: 35K']]],
+[1192,945,355,120,'alight motion',[['#SHARING','1 BULAN: 15K'],['#PRIVATE','1 BULAN: 35K']]]
+];
+function col(a){return a.map(function(t){return t[0]=='#'?'<h3>'+t.slice(1)+'</h3>':t[0]=='!'?'<p class="n">'+t.slice(1)+'</p>':'<p>'+t+'</p>'}).join('')}
+var st=document.getElementById('stage'),html='';
+D.forEach(function(d){
+ var cs=d[5],body=cs.length>1?'<div class="cols">'+cs.map(function(c){return '<div>'+col(c)+'</div>'}).join('')+'</div>':col(cs[0]);
+ if(d[6])body+=col(d[6]);
+ html+='<div class="c" style="left:'+d[0]+'px;top:'+d[1]+'px;width:'+d[2]+'px;height:'+d[3]+'px"><h2'+(d[4].length>16?' style="font-size:24px"':'')+'>'+d[4]+'</h2>'+body+'</div>';
+});
+st.insertAdjacentHTML('beforeend',html);
+var wrap=document.getElementById('wrap');
+function fit(){var s=wrap.clientWidth/1920;st.style.transform='scale('+s+')';wrap.style.height=(1080*s)+'px'}
+fit();addEventListener('resize',fit);
+</script>
+</body>
+</html>
